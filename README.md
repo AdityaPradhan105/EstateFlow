@@ -18,10 +18,11 @@ The platform is architected with a strong emphasis on scalability, modular engin
 ☁️ Scalable MongoDB Database Integration
 
 🛠️ Tech Stack
-Frontend -	React.js, Tailwind CSS, Axios
-Backend -	Node.js, Express.js
-Database -	MongoDB, Mongoose
-Security -	JWT Authentication, Protected Routes
+
+Frontend: React.js, Tailwind CSS, Axios
+Backend: Node.js, Express.js
+Database: MongoDB, Mongoose
+Security: JWT Authentication, Protected Routes
 
 ⭐ Vision
 
