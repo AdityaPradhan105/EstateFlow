@@ -2,7 +2,7 @@
 
 📌 Overview
 
-OPMS (Online Property Management System) is a scalable full-stack Real Estate Intelligence Platform engineered using the MERN stack to deliver intelligent property discovery, dynamic listing orchestration, secure user workflows, and seamless cross-platform experiences through modern application architecture and production-oriented system design.
+A scalable full-stack Real Estate Intelligence Platform engineered using the MERN stack to deliver intelligent property discovery, dynamic listing orchestration, secure user workflows, and seamless cross-platform experiences through modern application architecture and production-oriented system design.
 
 The platform is architected with a strong emphasis on scalability, modular engineering, secure backend infrastructure, optimized API communication, responsive UI/UX, and maintainable software development practices aligned with real-world product engineering standards.
 
