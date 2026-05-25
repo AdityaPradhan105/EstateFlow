@@ -32,5 +32,3 @@ Maintainable & Extensible System Design
 Built with real-world full-stack development practices
 Demonstrates scalable software engineering principles
 Focused on performance, maintainability, and user experience
-
-Thanks
