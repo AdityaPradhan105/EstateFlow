@@ -1,18 +1,22 @@
-🚀 OPMS — Online Property Management System
+🚀 EstateFlow — Scalable Full-Stack Real Estate Intelligence Platform
 
-A scalable full-stack MERN real estate platform built to streamline property discovery, listing management, and user engagement through modern UI/UX, secure authentication, and production-ready architecture.
+📌 Overview
 
-Designed with industry-level engineering practices focused on scalability, modularity, performance optimization, and clean system design.
+A scalable full-stack Real Estate Intelligence Platform engineered using the MERN stack to deliver intelligent property discovery, dynamic listing orchestration, secure user workflows, and seamless cross-platform experiences through modern application architecture and production-oriented system design.
+
+The platform is architected with a strong emphasis on scalability, modular engineering, secure backend infrastructure, optimized API communication, responsive UI/UX, and maintainable software development practices aligned with real-world product engineering standards.
 
 ✨ Core Features
-Secure JWT Authentication & Authorization
-Dynamic Property Listings & Management
-Advanced Search & Filtering System
-Favorites / Wishlist Functionality
-Inquiry & Contact Module
-Responsive Cross-Platform UI
-Admin Dashboard & CRUD Operations
-RESTful API Architecture with MongoDB
+🔐 JWT-Based Authentication & Authorization
+🏠 Dynamic Property Listing & Management
+🔎 Advanced Search & Multi-Dimensional Filtering
+❤️ Wishlist / Favorites Management
+📩 Inquiry & User Interaction System
+📊 Admin Dashboard with Full CRUD Operations
+⚡ Responsive Cross-Platform User Experience
+🔄 RESTful API-Driven Backend Architecture
+☁️ Scalable MongoDB Database Integration
+
 🛠️ Tech Stack
 
 Frontend: React.js, Tailwind CSS, Axios
@@ -20,15 +24,6 @@ Backend: Node.js, Express.js
 Database: MongoDB, Mongoose
 Security: JWT Authentication, Protected Routes
 
-🧠 Engineering Focus
-Scalable MERN Architecture
-Modular & Reusable Components
-Clean Code & Optimized APIs
-Responsive UI/UX Engineering
-Production-Level Folder Structure
-Maintainable & Extensible System Design
+⭐ Vision
 
-🌟 Highlights
-Built with real-world full-stack development practices
-Demonstrates scalable software engineering principles
-Focused on performance, maintainability, and user experience
+Building scalable, intelligent, and production-ready digital platforms focused on modern architecture, seamless user experiences, and high-performance software engineering.
