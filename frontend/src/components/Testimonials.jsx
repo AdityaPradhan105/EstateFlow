@@ -7,7 +7,7 @@ const testimonials = [
         id: 1,
         name: "Vikram Singh",
         role: "Real Estate Investor",
-        text: "OPMS has redefined how I search for premium properties. The platform's attention to detail and curated listings are unparalleled in Central India.",
+        text: "EstateFlow has redefined how I search for premium properties. The platform's attention to detail and curated listings are unparalleled in Central India.",
         rating: 5,
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop"
     },
@@ -15,7 +15,7 @@ const testimonials = [
         id: 2,
         name: "Ananya Sharma",
         role: "Homeowner",
-        text: "The virtual walkthrough feature saved me so much time. Finding my dream home was a seamless and actually enjoyable process thanks to OPMS.",
+        text: "The virtual walkthrough feature saved me so much time. Finding my dream home was a seamless and actually enjoyable process thanks to EstateFlow.",
         rating: 5,
         image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop"
     },
@@ -23,7 +23,7 @@ const testimonials = [
         id: 3,
         name: "Rahul Mehta",
         role: "Commercial Developer",
-        text: "A professional and efficient service. The data-driven insights provided by the OPMS team were crucial for our latest project acquisition.",
+        text: "A professional and efficient service. The data-driven insights provided by the EstateFlow team were crucial for our latest project acquisition.",
         rating: 4,
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop"
     }

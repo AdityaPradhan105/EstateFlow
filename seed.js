@@ -27,8 +27,8 @@ const seedDB = async () => {
         // 2. Seed Users (Admin & Agents)
         console.log('Inserting Users...');
         const adminUser = await User.create({
-            name: "OPMS Admin",
-            email: "admin@opms.com",
+            name: "EstateFlow Admin",
+            email: "admin@estateflow.com",
             password: hashedPassword,
             role: "admin",
             provider: "local",
@@ -44,7 +44,7 @@ const seedDB = async () => {
             role: "agent",
             provider: "local",
             experience: 14,
-            about: "Aditya Pradhan is a legendary acquisition strategist specializing in high-altitude and sub-surface retreats. With over 14 years of elite real estate depth across Uttarakhand and Rajasthan, he serves as a trusted advisor to top-tier investors seeking architectural icons.",
+            about: "Shaurya is a legendary acquisition strategist specializing in high-altitude and sub-surface retreats. With over 14 years of elite real estate depth across Uttarakhand and Rajasthan, he serves as a trusted advisor to top-tier investors seeking architectural icons.",
             location: "Roorkee, Uttarakhand",
             profileImage: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop&q=80",
             socialLinks: {

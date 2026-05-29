@@ -53,7 +53,7 @@ export default function Navbar() {
                             <Home className="text-white w-6 h-6" />
                         </motion.div>
                         <div className="flex flex-col leading-none">
-                            <span className="font-black text-xl sm:text-2xl text-primary dark:text-dark-on-surface tracking-tighter">OPMS</span>
+                            <span className="font-black text-xl sm:text-2xl text-primary dark:text-dark-on-surface tracking-tighter">EstateFlow</span>
                             <span className="text-[8px] font-black uppercase tracking-[0.2em] text-primary/40 dark:text-dark-on-surface-variant hidden sm:block">Premium Real Estate</span>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ export default function Navbar() {
                                 </motion.div>
 
                                 {/* Admin shortcut */}
-                                {user?.email === 'admin@opms.com' && (
+                                {user?.email === 'admin@estateflow.com' && (
                                     <motion.button
                                         whileHover={{ scale: 1.05 }}
                                         whileTap={{ scale: 0.95 }}
@@ -171,7 +171,7 @@ export default function Navbar() {
                                     <div className="w-10 h-10 bg-primary dark:bg-dark-primary rounded-xl flex items-center justify-center">
                                         <Home className="text-white w-5 h-5" />
                                     </div>
-                                    <span className="font-black text-xl text-primary dark:text-dark-on-surface tracking-tighter">OPMS</span>
+                                    <span className="font-black text-xl text-primary dark:text-dark-on-surface tracking-tighter">EstateFlow</span>
                                 </div>
                                 <button onClick={() => setIsMenuOpen(false)} className="w-10 h-10 flex items-center justify-center text-primary/40 dark:text-dark-on-surface-variant bg-surface-variant/20 dark:bg-dark-surface-variant/20 rounded-xl">
                                     <X className="w-5 h-5" />
