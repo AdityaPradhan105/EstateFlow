@@ -40,17 +40,14 @@ app.use('/api/properties', propertyRoutes);
 app.use('/api/inquiries', inquiryRoutes);
 app.use('/api/auth', authRoutes); // Keep for legacy if needed, but primary is /api/users
 
-// Serve frontend in production
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, '../frontend/dist')));
-    app.get('/', (req, res) =>
-        res.sendFile(path.resolve(__dirname, '../', 'frontend', 'dist', 'index.html'))
-    );
-} else {
-    app.get('/test-render-fix', (req, res) => {
-        res.send('OPMS API is running...');
+// Serve API status in production/development
+app.get('/', (req, res) => {
+    res.json({ 
+        message: '🚀 OPMS API is running successfully!', 
+        environment: process.env.NODE_ENV || 'development',
+        health: '/api/health'
     });
-}
+});
 
 // Global Error Handler
 app.use((err, req, res, next) => {
