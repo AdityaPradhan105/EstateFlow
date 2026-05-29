@@ -26,4 +26,4 @@ Security: JWT Authentication, Protected Routes
 
 ⭐ Vision
 
-Building scalable, intelligent, and production-ready digital platforms focused on modern architecture, seamless user experiences, and high-performance software engineering.
+Engineering next-generation, scalable, intelligent, and production-grade digital platforms powered by modern software architecture, high-performance engineering, and user-centric innovation — delivering seamless user experiences, enterprise-grade reliability, security, maintainability, and real-world impact at global scale.
