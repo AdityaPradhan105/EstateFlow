@@ -32,7 +32,7 @@ export default function SplashScreen() {
                 </div>
 
                 <div className="space-y-4 animate-fade-in-up">
-                    <h1 className="font-headline font-black text-6xl text-white tracking-tighter">OPMS</h1>
+                    <h1 className="font-headline font-black text-6xl text-white tracking-tighter">EstateFlow</h1>
                     <div className="flex items-center gap-3 justify-center">
                         <div className="h-px w-8 bg-white/20"></div>
                         <p className="text-[10px] font-black tracking-[0.3em] text-secondary-container uppercase">Premium Estate Curator</p>
