@@ -5,7 +5,7 @@ import { MessageCircle, X, Send, Bot, User, Sparkles } from 'lucide-react';
 export default function Chatbot() {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
-        { id: 1, text: "Hi! I'm your OPMS AI Assistant. How can I help you find your dream property today?", sender: 'bot' }
+        { id: 1, text: "Hi! I'm your EstateFlow AI Assistant. How can I help you find your dream property today?", sender: 'bot' }
     ]);
     const [input, setInput] = useState('');
     const chatRef = useRef(null);
@@ -60,7 +60,7 @@ export default function Chatbot() {
                                     <Sparkles className="w-5 h-5 text-accent" />
                                 </div>
                                 <div>
-                                    <p className="font-black text-sm tracking-tight">OPMS AI Assistant</p>
+                                    <p className="font-black text-sm tracking-tight">EstateFlow AI Assistant</p>
                                     <p className="text-[10px] font-bold opacity-60">Online & Ready to Help</p>
                                 </div>
                             </div>

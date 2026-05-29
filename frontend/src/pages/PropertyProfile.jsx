@@ -99,8 +99,8 @@ export default function PropertyProfile() {
 
     const defaultAgent = {
         _id: "default-agent-1",
-        name: "Agent Aditya",
-        email: "contact@aditya.property@gmail.com",
+        name: "Agent Shaurya",
+        email: "contact@shaurya.property@gmail.com",
         phone: "9876543210",
         profileImage: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80",
         experience: 8,
@@ -322,7 +322,7 @@ export default function PropertyProfile() {
                                 Security Guaranteed
                             </div>
                             <p className="text-[10px] text-on-surface-variant/60 dark:text-dark-on-surface-variant/40 font-bold leading-relaxed">
-                                All transactions are protected via our internal escrow system. Estate verified by the Central Intelligence Unit of OPMS.
+                                All transactions are protected via our internal escrow system. Estate verified by the Central Intelligence Unit of EstateFlow.
                             </p>
                         </div>
                     </div>

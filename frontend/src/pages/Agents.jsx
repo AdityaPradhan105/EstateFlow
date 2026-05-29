@@ -204,7 +204,7 @@ export default function Agents() {
                 >
                     <div className="relative z-10 space-y-6">
                         <h2 className="font-headline font-black text-4xl sm:text-6xl text-white tracking-tighter leading-none italic">Join the Elite <br /> <span className="text-accent underline decoration-white/20">Circle</span></h2>
-                        <p className="text-white/60 font-bold text-lg max-w-xl mx-auto">Are you a distinguished real estate professional? Join OPMS to elevate your portfolio to Central India's most discerning investors.</p>
+                        <p className="text-white/60 font-bold text-lg max-w-xl mx-auto">Are you a distinguished real estate professional? Join EstateFlow to elevate your portfolio to Central India's most discerning investors.</p>
                         <button className="bg-white text-primary px-12 py-5 rounded-full font-black uppercase tracking-widest text-xs hover:bg-accent hover:text-white transition-all shadow-2xl">Partner with Us</button>
                     </div>
 

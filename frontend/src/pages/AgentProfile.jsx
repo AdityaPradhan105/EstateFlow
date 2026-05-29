@@ -172,7 +172,7 @@ export default function AgentProfile() {
                                 <span className="text-accent font-black text-[10px] uppercase tracking-[0.3em] mb-2">Strategy Consultant</span>
                              </div>
                              <p className="text-2xl font-medium text-on-surface-variant dark:text-dark-on-surface-variant leading-relaxed opacity-80 italic">
-                                 {agent.about || `${agent.fullName || agent.name} acts as a cornerstone of the OPMS network, orchestrating high-value residential and commercial acquisitions. With a refined focus on portfolio growth and data-driven insights, they navigate the complexities of Central India's real estate market with surgical precision and absolute transparency.`}
+                                 {agent.about || `${agent.fullName || agent.name} acts as a cornerstone of the EstateFlow network, orchestrating high-value residential and commercial acquisitions. With a refined focus on portfolio growth and data-driven insights, they navigate the complexities of Central India's real estate market with surgical precision and absolute transparency.`}
                              </p>
 
                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
@@ -184,7 +184,7 @@ export default function AgentProfile() {
                                     Secure Line
                                  </a>
                                  <a 
-                                    href={`mailto:${agent.email || 'contact@aditya.property@gmail.com'}`}
+                                    href={`mailto:${agent.email || 'contact@shaurya.property@gmail.com'}`}
                                     className="flex items-center justify-center gap-4 bg-white dark:bg-dark-surface border border-surface-variant dark:border-dark-surface-variant text-primary dark:text-dark-on-surface py-6 rounded-[2.5rem] font-black uppercase tracking-widest text-xs hover:border-primary transition-all"
                                  >
                                     <Mail className="w-5 h-5" />

@@ -36,15 +36,15 @@ const seedDB = async () => {
         });
 
         const agent1 = await User.create({
-            name: "Aditya Pradhan",
-            email: "contact@aditya.property@gmail.com",
+            name: "Shaurya Mehta",
+            email: "contact@shaurya.property@gmail.com",
             phone: "9876543210",
             phoneNumber: "9876543210",
             password: hashedPassword,
             role: "agent",
             provider: "local",
             experience: 14,
-            about: "Shaurya is a legendary acquisition strategist specializing in high-altitude and sub-surface retreats. With over 14 years of elite real estate depth across Uttarakhand and Rajasthan, he serves as a trusted advisor to top-tier investors seeking architectural icons.",
+            about: "Shaurya Mehta is a legendary acquisition strategist specializing in high-altitude and sub-surface retreats. With over 14 years of elite real estate depth across Uttarakhand and Rajasthan, he serves as a trusted advisor to top-tier investors seeking architectural icons.",
             location: "Roorkee, Uttarakhand",
             profileImage: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop&q=80",
             socialLinks: {

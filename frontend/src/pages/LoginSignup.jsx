@@ -120,7 +120,7 @@ export default function LoginSignup() {
                         <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center rotate-3">
                             <span className="material-symbols-outlined text-primary">apartment</span>
                         </div>
-                        <span className="font-black text-2xl text-white tracking-tighter">OPMS</span>
+                        <span className="font-black text-2xl text-white tracking-tighter">EstateFlow</span>
                     </div>
                 </div>
                 
@@ -144,7 +144,7 @@ export default function LoginSignup() {
                              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                                 <span className="material-symbols-outlined text-white text-sm">apartment</span>
                             </div>
-                            <span className="font-black text-xl text-primary tracking-tighter">OPMS</span>
+                            <span className="font-black text-xl text-primary tracking-tighter">EstateFlow</span>
                         </div>
                         <h1 className="font-headline font-black text-4xl text-primary tracking-tight">
                             {isLoginView ? 'Welcome back' : 'Start your journey'}

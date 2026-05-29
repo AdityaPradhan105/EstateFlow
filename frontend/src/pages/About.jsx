@@ -16,7 +16,7 @@ export default function About() {
                         </h1>
                     </div>
                     <p className="text-on-surface-variant text-base sm:text-xl max-w-2xl mx-auto leading-relaxed font-medium">
-                        OPMS started with a simple vision: to make high-end real estate accessible through technology and trust. Today, we are Madhya Pradesh's leading property management platform.
+                        EstateFlow started with a simple vision: to make high-end real estate accessible through technology and trust. Today, we are Madhya Pradesh's leading property management platform.
                     </p>
                 </section>
 

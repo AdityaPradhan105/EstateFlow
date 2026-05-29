@@ -126,7 +126,7 @@ export default function AddProperty() {
                     <div className="space-y-4 text-center">
                         <h1 className="font-headline font-black text-4xl sm:text-5xl text-primary tracking-tight">Cloud Listing</h1>
                         <p className="text-on-surface-variant font-bold text-base sm:text-lg max-w-xl mx-auto">
-                            Upload your estate images securely with OPMS Cloudinary Integration.
+                            Upload your estate images securely with EstateFlow Cloudinary Integration.
                         </p>
                     </div>
 
@@ -281,7 +281,7 @@ export default function AddProperty() {
                                         <div className="w-4 h-4 border-2 border-white/20 border-t-white rounded-full animate-spin" />
                                         <span>Cloud Upload in Progress...</span>
                                     </>
-                                ) : 'Sync with OPMS Cloud'}
+                                ) : 'Sync with EstateFlow Cloud'}
                             </button>
                         </div>
                     </form>

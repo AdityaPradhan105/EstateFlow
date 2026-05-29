@@ -430,7 +430,7 @@ export default function Hero() {
                         transition={{ delay: 1 }}
                         className="text-white/80 text-sm sm:text-xl font-bold max-w-2xl mx-auto"
                     >
-                        Discover unparalleled architectural excellence and luxury living with OPMS – the definitive portfolio for distinguished estates.
+                        Discover unparalleled architectural excellence and luxury living with EstateFlow – the definitive portfolio for distinguished estates.
                     </motion.p>
                 </div>
 
@@ -792,7 +792,7 @@ export default function Hero() {
                                     </motion.div>
                                     <h3 className="font-headline font-black text-xl text-primary dark:text-white">Request Registered</h3>
                                     <p className="text-xs text-primary/60 dark:text-white/60 leading-relaxed px-4">
-                                        An elite concierge from OPMS will contact you shortly to schedule your private tour of <strong>{selectedEstateForInquiry.name}</strong>.
+                                        An elite concierge from EstateFlow will contact you shortly to schedule your private tour of <strong>{selectedEstateForInquiry.name}</strong>.
                                     </p>
                                 </div>
                             ) : (
