@@ -253,6 +253,7 @@ export default function LoginSignup() {
                         <button
                             onClick={() => {
                                 const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+                                console.log("Loaded Google Client ID in browser:", clientId);
                                 if (!clientId || clientId === 'GOOGLE_CLIENT_ID_PLACEHOLDER' || clientId.includes('placeholder') || clientId.includes('here')) {
                                     setError('Google Client ID is not configured in environment variables. Please check the setup instructions.');
                                     return;
