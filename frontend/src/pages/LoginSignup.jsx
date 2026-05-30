@@ -251,7 +251,14 @@ export default function LoginSignup() {
                         </div>
 
                         <button
-                            onClick={() => handleGoogleLogin()}
+                            onClick={() => {
+                                const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+                                if (!clientId || clientId === 'GOOGLE_CLIENT_ID_PLACEHOLDER' || clientId.includes('placeholder') || clientId.includes('here')) {
+                                    setError('Google Client ID is not configured in environment variables. Please check the setup instructions.');
+                                    return;
+                                }
+                                handleGoogleLogin();
+                            }}
                             type="button"
                             className="w-full flex items-center justify-center gap-3 py-4 bg-white border-2 border-surface-variant rounded-[2rem] font-black uppercase tracking-widest text-[10px] hover:bg-surface-variant/10 transition-all active:scale-95"
                         >
