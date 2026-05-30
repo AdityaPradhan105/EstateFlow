@@ -260,11 +260,21 @@ export default function LoginSignup() {
                                 }
                                 handleGoogleLogin();
                             }}
+                            disabled={loading}
                             type="button"
-                            className="w-full flex items-center justify-center gap-3 py-4 bg-white border-2 border-surface-variant rounded-[2rem] font-black uppercase tracking-widest text-[10px] hover:bg-surface-variant/10 transition-all active:scale-95"
+                            className="w-full flex items-center justify-center gap-3 py-4 bg-white border-2 border-surface-variant rounded-[2rem] font-black uppercase tracking-widest text-[10px] hover:bg-surface-variant/10 transition-all active:scale-95 disabled:opacity-50"
                         >
-                            <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" className="w-5 h-5" />
-                            Sign in with Google
+                            {loading ? (
+                                <div className="flex items-center justify-center gap-2">
+                                    <div className="w-4 h-4 border-2 border-primary/20 border-t-primary rounded-full animate-spin" />
+                                    <span>Signing in...</span>
+                                </div>
+                            ) : (
+                                <>
+                                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" className="w-5 h-5" />
+                                    Sign in with Google
+                                </>
+                            )}
                         </button>
                     </div>
 

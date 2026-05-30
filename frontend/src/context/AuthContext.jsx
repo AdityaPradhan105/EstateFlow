@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import API_URL from '../config/api';
 
 const AuthContext = createContext(null);
@@ -26,11 +26,17 @@ export function AuthProvider({ children }) {
         }
     });
     const [loading, setLoading] = useState(true);
+    const skipFetchRef = useRef(false);
 
     // PERSIST SESSION: Fetch user data from backend on mount
     useEffect(() => {
         const fetchUserData = async () => {
             if (token) {
+                if (skipFetchRef.current) {
+                    skipFetchRef.current = false;
+                    setLoading(false);
+                    return;
+                }
                 try {
                     const res = await fetch(`${API_URL}/api/users/profile`, {
                         headers: {
@@ -41,7 +47,7 @@ export function AuthProvider({ children }) {
                         const data = await res.json();
                         setUser(data);
                         localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-                    } else {
+                    } else if (res.status === 401 || res.status === 403) {
                         // Token might be invalid or expired
                         logout();
                     }
@@ -64,6 +70,7 @@ export function AuthProvider({ children }) {
     const login = useCallback((newToken, newUser) => {
         localStorage.setItem(TOKEN_KEY, newToken);
         localStorage.setItem(STORAGE_KEY, JSON.stringify(newUser));
+        skipFetchRef.current = true;
         setToken(newToken);
         setUser(newUser);
     }, []);
